@@ -27,8 +27,8 @@ docker cp ${PREFIX}_hv2_1:/vm2_overlay.pcap .
 docker cp ${PREFIX}_hv1_1:/vm1_underlay.pcap .
 docker cp ${PREFIX}_hv2_1:/vm2_underlay.pcap .
 # Clean up
-sleep 3
-echo "Press Enter to delete your Overlay network"
-read null
+sleep 10
+#echo "Press Enter to delete your Overlay network"
+#read null
 docker-compose kill
 docker-compose rm -f
