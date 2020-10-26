@@ -2,16 +2,20 @@
 
 See original @ [VXLAN Hands on Lab](http://hechao.li/2018/05/15/VXLAN-Hands-on-Lab/)
 
-# Prerequisite 
+## Prerequisite 
 * Docker
 * docker-compose
 
-# Run
+## Run
 ```bash
 $ ./run_lab.sh
 ```
 
-# Collect PCAP file
+## Build screenshot
+
+![Vxlan Spin UP](vxlan_build.png)
+
+## Collect PCAP file
 After running `run_lab.sh`, the PCAP files are generated and copied to working directory
 ```bash
 $ ls *.pcap
